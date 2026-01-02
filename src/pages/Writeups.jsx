@@ -4,6 +4,7 @@ import { BookOpen, Calendar, Clock } from 'lucide-react';
 const Writeups = () => {
     // Placeholder data for writeups
     const posts = [
+        /*
         {
             id: 'example-writeup-1',
             title: '[Writeup Title Placeholder 1]',
@@ -18,6 +19,7 @@ const Writeups = () => {
             readTime: '10 min read',
             excerpt: 'Another research post or lab writeup summary here.',
         },
+        */
     ];
 
     return (

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-background text-slate-200 font-sans selection:bg-emerald-500/30 selection:text-emerald-200;
+}
+
+.mono-accent {
+  @apply font-mono text-emerald-500;
+}
+
+.section-divider {
+  @apply border-t border-slate-800 my-12;
+}
+
+/* Custom terminal-style scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-950;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 hover:bg-slate-700 rounded-full;
+}
